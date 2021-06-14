@@ -5,7 +5,8 @@ export const GlobalStyle = createGlobalStyle`
         height: 100%;
     }
     body {
-        background-color: navy;
+        color: #696969;
+        background-color: #ffe78154;
         margin: 0;
         padding: 0 20px;
         display flex;
@@ -30,16 +31,9 @@ export const Wrapper = styled.div`
     margin: 0;
   }
   h1 {
-    font-family: Fascinate Inline;
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
+    font-family: sans-serif;
     font-weight: 400;
     background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px #0085a3);
     font-size: 70px;
     text-align: center;
     margin: 20px;

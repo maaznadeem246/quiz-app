@@ -73,7 +73,7 @@ function App() {
            : null
            }
         { loading ? 
-         <p>
+         <p className="loading">
           Loading
         </p>
         : null}

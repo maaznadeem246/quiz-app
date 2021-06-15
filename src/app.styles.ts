@@ -26,8 +26,8 @@ export const Wrapper = styled.div`
     color: #fff;
   }
   .score {
-    color: #fff;
-    font-size: 2rem;
+    color: #696969;
+    font-size: 1.8rem;
     margin: 0;
   }
   h1 {
@@ -40,15 +40,25 @@ export const Wrapper = styled.div`
   }
   .start, .next {
     cursor: pointer;
-    background: linear-gradient(180deg, #ffffff, #ffcc91);
-    border: 2px solid #d38558;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    background: transparent;
+    color:#696969;
+    border: 2px solid #696969;
     border-radius: 10px;
     height: 40px;
+    font-weight:700;
     margin: 20px 0;
     padding: 0 40px;
+    box-shadow: 2px 2px #696969;
   }
   .start {
     max-width: 200px;
+  }
+  .start:hover,.next:hover{
+    opacity: 0.6;
+  }
+  .loading{
+    color: #696969;
+    font-size: 1.2rem;
+    margin: 10px;  
   }
 `;
